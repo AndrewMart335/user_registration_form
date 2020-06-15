@@ -6,24 +6,29 @@
   </head>
   <body>
 <h1><strong>User Registration</strong></h1>
-<p>First Name:</p>
-<p>Surname:</p>
-<p>Gender</p>
-<button type="button" name="male"></button>
-<button type="button" name="female"></button>
+<p>First Name:</p> <input type="text" name="" value=""> 
+<p>Surname:</p> <input type="text" name="" value="">
+<p>Gender:</p> <input type="radio" name="gender" value="Male">Male <input type="radio" name="Gender" value="female">Female
 <p>Address:</p>
-
+<textarea name="txtaddress" rows="5" cols="20"></textarea>
 <p>Which of the following sports do you like watching:</p>
-<ul>
-<li>Soccer</li>
-<li>Aussie Rules</li>
-<li>Rugby League</li>
-<li>Rugby Union</li>
-<li>Netball</li>
-<li>Cricket</li>
-</ul>
+
+<input type="radio" name="seltopt" value="soccer">Soccer <br>
+<input type="radio" name="seltopt" value="Aussie Rules">Aussie Rules <br>
+<input type="radio" name="seltopt" value="Rugby League">Rugby League <br>
+<input type="radio" name="seltopt" value="Rugby Union">Rugby Union <br>
+<input type="radio" name="seltopt" value="Netball">Netball <br>
+<input type="radio" name="seltopt" value="Cricket">Cricket <br>
 
 <p>How did you hear about us?</p>
-
+<select class="selt5" name="feedback">
+  <option value="">Select option</option>
+  <option value="">Internet</option>
+  <option value="">Word of Mouth</option>
+  <option value="">Other</option>
+</select>
+<br><br>
+<button type="submit" name="submit">Submit</button>
+<button type="reset" name="clear">Clear</button>
   </body>
 </html>
